@@ -11,7 +11,7 @@ cd /data/scratch/ha25158/sra_work || exit 1
 source ~/.bashrc
 conda activate fastplong_env
 
-BASE_DIR="/data/scratch/ha25158/sra_work"
+BASE_DIR="/path/to/project"
 FASTQ_DIR="${BASE_DIR}/fastq"
 OUTPUT_DIR="${BASE_DIR}/fastplong_output"
 REPORT_DIR="${BASE_DIR}/fastplong_reports"
