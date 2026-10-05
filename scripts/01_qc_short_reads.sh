@@ -11,7 +11,7 @@ cd /data/scratch/ha25158/sra_illumina || exit 1
 source ~/.bashrc
 conda activate fastp_env
 
-BASE_DIR="/data/scratch/ha25158/sra_illumina"
+BASE_DIR="/path/to/project"
 FASTQ_DIR="${BASE_DIR}/fastq"
 TRIMMED_DIR="${BASE_DIR}/fastp_trimmed"
 REPORT_DIR="${BASE_DIR}/fastp_reports"
